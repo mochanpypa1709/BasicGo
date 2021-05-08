@@ -1,6 +1,8 @@
 package main
 
-import "github.com/mochanpypa1709/BasicGo/print"
+import (
+	"github.com/mochanpypa1709/BasicGo/ifstate"
+)
 
 func main() {
 	//variable.Arguments()
@@ -9,5 +11,5 @@ func main() {
 
 	//iota.Seasons()
 
-	print.FullName()
+	ifstate.UserPass2()
 }
