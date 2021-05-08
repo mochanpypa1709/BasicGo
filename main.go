@@ -1,13 +1,13 @@
 package main
 
-import (
-	"github.com/mochanpypa1709/BasicGo/iota"
-)
+import "github.com/mochanpypa1709/BasicGo/print"
 
 func main() {
 	//variable.Arguments()
 
 	//strings.RightTrim()
 
-	iota.Seasons()
+	//iota.Seasons()
+
+	print.FullName()
 }
