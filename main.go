@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mochanpypa1709/BasicGo/err_handling"
+import "github.com/mochanpypa1709/BasicGo/ifstate"
 
 func main() {
 	//variable.Arguments()
@@ -11,5 +11,5 @@ func main() {
 
 	//ifstate.UserPass2()
 
-	err_handling.Feet2meter()
+	ifstate.ShortIf()
 }
