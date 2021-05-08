@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/mochanpypa1709/BasicGo/ifstate"
-)
+import "github.com/mochanpypa1709/BasicGo/err_handling"
 
 func main() {
 	//variable.Arguments()
@@ -11,5 +9,7 @@ func main() {
 
 	//iota.Seasons()
 
-	ifstate.UserPass2()
+	//ifstate.UserPass2()
+
+	err_handling.Feet2meter()
 }
