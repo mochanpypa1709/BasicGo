@@ -1,10 +1,11 @@
 package main
 
-import "github.com/mochanpypa1709/BasicGo/variable"
+import (
+	"github.com/mochanpypa1709/BasicGo/strings"
+)
 
 func main() {
-	//variable.Assign2Exp()
-	//variable.Blue()
-	//variable.Perim()
-	variable.Arguments()
+	//variable.Arguments()
+
+	strings.RightTrim()
 }
