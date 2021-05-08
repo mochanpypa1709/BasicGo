@@ -15,6 +15,9 @@ Usage:
 feet [feetsToConvert]`
 
 func Feet2meter() {
+	l := len(os.Args)
+	fmt.Printf("total len: %d\n", l)
+
 	if len(os.Args) < 2 {
 		fmt.Println(strings.TrimSpace(usage))
 		return
