@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mochanpypa1709/BasicGo/ifstate"
+import "github.com/mochanpypa1709/BasicGo/switching"
 
 func main() {
 	//variable.Arguments()
@@ -11,5 +11,7 @@ func main() {
 
 	//ifstate.UserPass2()
 
-	ifstate.ShortIf()
+	//err_handling.Dayinmonth()
+
+	switching.City()
 }
