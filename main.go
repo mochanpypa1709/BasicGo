@@ -13,5 +13,5 @@ func main() {
 
 	//err_handling.Dayinmonth()
 
-	switching.City()
+	switching.Richter()
 }
