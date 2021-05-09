@@ -1,6 +1,6 @@
 package main
 
-import "github.com/mochanpypa1709/BasicGo/switching"
+import "github.com/mochanpypa1709/BasicGo/loop"
 
 func main() {
 	//variable.Arguments()
@@ -13,5 +13,7 @@ func main() {
 
 	//err_handling.Dayinmonth()
 
-	switching.Richter()
+	//switching.Cont()
+
+	loop.Inf()
 }
